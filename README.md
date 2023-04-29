@@ -174,8 +174,8 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ## STM 32 CUBE PROGRAM :
 ~~~
-NAME:R.HEMAPRIYA
-REG.NO:212221230043
+NAME:VALASAREDDY PALLAVI
+REG.NO:212221240059
 ~~~
 ~~~
 #include "main.h"
@@ -192,11 +192,11 @@ int main(void)
   	  Lcd_HandleTypeDef lcd;
   	  lcd=Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
   	  Lcd_cursor(&lcd,0,1);
-  	  Lcd_string(&lcd,"DEPT - AIDS");
+  	  Lcd_string(&lcd,"PALLAVI");
   while (1)
   {
     	Lcd_cursor(&lcd,1,1);
-    	  	  Lcd_string(&lcd,"JITHENDRA");
+    	  	  Lcd_string(&lcd,x);
   }
 }
 
@@ -208,7 +208,7 @@ int main(void)
  ![image](https://user-images.githubusercontent.com/94184828/234639932-85f053f5-1213-4a6b-88d3-b3edc3c95752.png)
 ## LED ON CONDITION
 
-  ![image](https://user-images.githubusercontent.com/94184828/234640610-c9a6e76d-f6fd-49b1-a948-5547e41ee63c.png)
+  ![image](https://github.com/Pallavi-Raveendranadreddy/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/blob/60362099c457a714404e47e02f0c10974aad3209/lcd%201.png)
 
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
 ![image](https://user-images.githubusercontent.com/94184828/234642003-0358fc35-704d-4982-aae9-3e39b358ff0c.png)
